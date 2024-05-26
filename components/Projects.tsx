@@ -28,7 +28,8 @@ const Projects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        A small selection of<span className="text-purple">recent projects</span>
+        A small selection of{" "}
+        <span className="text-purple">recent projects</span>
       </h1>
 
       {/* select Projects type */}

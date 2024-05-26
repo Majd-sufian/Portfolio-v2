@@ -7,7 +7,7 @@ const Clients = () => {
   return (
     <section id="testimonials" className="py-20">
       <h1 className="heading">
-        Mmmm, a little brag
+        Mmmm, a little
         <span className="text-purple"> brag</span>
       </h1>
 
