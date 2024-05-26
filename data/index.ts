@@ -304,7 +304,7 @@ export interface Tweet {
 export const tweets: Array<Tweet> = [
   {
     id: 0,
-    name: "Name cannot be blank",
+    name: "Sultan 👑",
     userName: "@hackSultan",
     reply: "This is great stuff right here..",
   },
