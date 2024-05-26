@@ -11,8 +11,8 @@ const Blogs = () => {
       </h1>
 
       <div className="flex flex-wrap justify-center my-20">
-        {blogs.map(({ title, img }) => (
-          <BlogCard key={title} title={title} img={img} />
+        {blogs.map(({ title, img, link }) => (
+          <BlogCard key={title} title={title} img={img} link={link} />
         ))}
       </div>
     </section>

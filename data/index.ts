@@ -370,7 +370,7 @@ export const tweets: Array<Tweet> = [
   },
   {
     id: 11,
-    name: "Cynthia 🏳️‍🌈 Sanchez",
+    name: "Cynthia Sanchez",
     userName: "@cyntss",
     reply: "Love your design! sharing now!",
   },

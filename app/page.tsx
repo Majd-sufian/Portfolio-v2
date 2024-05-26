@@ -9,6 +9,7 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/HeroComponents/Hero";
 import Projects from "@/components/Projects";
 import { navItems } from "@/data";
+import Script from "next/script";
 
 const Home = () => {
   return (
@@ -25,6 +26,19 @@ const Home = () => {
         {/* <TechStack /> */}
         <Footer />
       </div>
+
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-TBLK0QK6QB"
+      ></Script>
+      <Script id="google-analytics-2" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-TBLK0QK6QB');`}
+      </Script>
     </main>
   );
 };
