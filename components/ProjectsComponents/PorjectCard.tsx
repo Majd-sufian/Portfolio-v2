@@ -1,6 +1,7 @@
 import { Project } from "@/data";
 import { FaGithub, FaLocationArrow } from "react-icons/fa6";
 import { PinContainer } from "../atoms/Pin";
+import { redirectTo } from "@/lib/utils";
 
 interface PorjectCardProps {
   project: Project;
@@ -8,10 +9,6 @@ interface PorjectCardProps {
 
 const PorjectCard: React.FC<PorjectCardProps> = ({ project }) => {
   const { id, img, title, des, iconLists, link, github } = project;
-
-  const redirectTo = (url: string) => {
-    window.open(url, "_blank");
-  };
 
   return (
     <div

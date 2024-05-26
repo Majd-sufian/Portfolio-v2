@@ -1,6 +1,6 @@
-import Link from "next/link";
 import ShimmerButton from "../atoms/ShimmerButton";
 import { CardContainer, CardBody, CardItem } from "./Card3D";
+import { redirectTo } from "@/lib/utils";
 
 interface BlogCardProps {
   title: string;
@@ -32,9 +32,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ title, img, link }) => {
             translateZ={20}
             className="px-4 py-2 rounded-xl bg-black dark:text-black text-white text-xs font-bold"
           >
-            <Link href={link}>
-              <ShimmerButton text="Read More" />
-            </Link>
+            <ShimmerButton text="Read More" onClick={() => redirectTo(link)} />
           </CardItem>
         </div>
       </CardBody>
