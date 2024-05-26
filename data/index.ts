@@ -72,7 +72,17 @@ export const gridItems = [
 export type ProjectType = "Clients" | "Personal";
 export const projectTypes: ProjectType[] = ["Clients", "Personal"];
 
-export const personalProjects = [
+export type Project = {
+  id: number;
+  title: string;
+  des: string;
+  img: string;
+  iconLists: string[];
+  link: string;
+  github?: string;
+};
+
+export const personalProjects: Project[] = [
   // NFT - Personal
   {
     id: 2,
@@ -124,7 +134,7 @@ export const personalProjects = [
   },
 ];
 
-export const clientsProjects = [
+export const clientsProjects: Project[] = [
   // Rocket Tutor - Landing Page - Client
   {
     id: 1,

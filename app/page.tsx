@@ -7,7 +7,7 @@ import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/HeroComponents/Hero";
-import Projects from "@/components/Projects";
+import Projects from "@/components/ProjectsComponents/Projects";
 import { navItems } from "@/data";
 import Script from "next/script";
 
