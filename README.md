@@ -1,22 +1,19 @@
 ## 📋 <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
+1. 🤖 [About](#about)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Code to Copy](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
 
-## <a name="about">🔍 About</a>
+## <a name="about">🤖 About</a>
 
-Personal Portofolio
+A Personal Portfolio
 
 ### [Live Site](https://www.majd-sufyan.site/)
 
-![Personal Portfolio](https://ibb.co/Xk9zQYj)
-![Personal Portfolio](https://ibb.co/dtvZqcD)
-![Personal Portfolio](https://ibb.co/nw9VFgM)
+![Personal Portfolio](https://i.postimg.cc/4JjbvVnS/Screenshot-2024-05-25-at-21-31-41.png)
+![Personal Portfolio](https://i.postimg.cc/X4nKgV74/Screenshot-2024-05-25-at-21-32-38.pnghttps://ibb.co/dtvZqcD)
+![Personal Portfolio](https://i.postimg.cc/0xYdm6vV/Screenshot-2024-05-25-at-21-32-11.png)
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -31,7 +28,7 @@ Personal Portofolio
 
 👉 **Bento Grid**: Modern layout presenting personal information using cutting-edge CSS design techniques.
 
-👉 **3D Elements**: Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
+👉 **3D Elements**: Interactive 3D design elements, such as a GitHub-style globe and card hover effects, add depth and engagement.
 
 👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
 
