@@ -254,6 +254,12 @@ type Blog = {
 };
 
 export const blogs: Array<Blog> = [
+  // Good vs. great Programmer 💪
+  {
+    title: "Good vs. great Programmer 💪",
+    link: "https://dev.to/majdsufian/good-vs-great-programmer-4dk2",
+    img: "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqlr0rtsokrwy1xehrydn.jpg",
+  },
   // state
   {
     title: "Managing React State Like A Superhero 🦸",
