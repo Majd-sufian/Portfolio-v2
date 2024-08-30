@@ -254,6 +254,12 @@ type Blog = {
 };
 
 export const blogs: Array<Blog> = [
+  // Easiest Way to Get OpenAI Keys for Free 🔒
+  {
+    title: "Easiest Way to Get OpenAI Keys for Free 🔒",
+    link: "https://dev.to/majdsufian/the-easiest-way-to-get-openai-keys-for-free-4pdc",
+    img: "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjf7iz4q23qdwtd00ijdd.jpg",
+  },
   // Good vs. great Programmer 💪
   {
     title: "Good vs. great Programmer 💪",
